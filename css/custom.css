@@ -1546,6 +1546,12 @@ body section#contant .post-info span h4 {
  .contact {
      float: left;
      width: 100%;
+     padding: 0px 0px 0px 0px;
+}
+@media only screen and (min-width: 2500px) {
+    .contact {
+        padding: 0px 0px 74px 0px;
+    }    
 }
  .contact iframe {
      width:100%;
@@ -1568,6 +1574,15 @@ body section#contant .post-info span h4 {
      padding: 8px 15px;
      border: solid #ccc 1px;
      margin-bottom: 25px;
+}
+.socials {
+     float: left;
+     width: 100%;
+     background: #f8f8f8;
+     border: solid #ccc 1px;
+     padding: 32px 35px 30px 30px;
+     text-align: left;
+     margin-top: 30px;
 }
  #contactform {
      float: left;
@@ -1605,6 +1620,16 @@ body section#contant .post-info span h4 {
      padding: 0;
      font-weight: 500;
      margin-bottom: 5px;
+}
+.socials div.kode-section-title {
+    float: left;
+    width: 100%;
+}
+.socials div.kode-section-title h3 {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    margin-bottom: 5px;
 }
  .kode-form-list {
      float: left;
@@ -1924,6 +1949,7 @@ body section#contant .post-info span h4 {
          padding: 15px 0;
          width: 100%;
          text-align: center;
+
     }
      .main-heading.sytle-2 h2::before, .main-heading.sytle-2 h2::after {
          display: none;
@@ -1976,6 +2002,11 @@ body section#contant .post-info span h4 {
          padding: 20px 20px 20px 20px;
          margin-top: 30px;
          margin-bottom: 30px;
+    }
+    .socials {
+        padding: 20px 20px 20px 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
      .commant-section h5 {
          margin: 15px 0 0;

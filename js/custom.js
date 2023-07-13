@@ -83,21 +83,17 @@
     
                 var nameValue = $('#name').val();
                 var emailValue = $('#email').val();
-                var addressValue = $('#address').val();
                 var messageValue = $('#message').val();
     
                 console.log('Name:', nameValue);
                 console.log('Email:', emailValue);
-                console.log('Address:', addressValue);
                 console.log('Message:', messageValue);
     
-                $.post(action, {
-                    full_name: nameValue,
+                $.post("contact.php", {
+                    name: nameValue,
                     email: emailValue,
-                    address: addressValue,
                     message: messageValue
-                }
-                
+                }                
                 //todo make this work ig
 
                 /*,
