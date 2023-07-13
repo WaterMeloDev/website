@@ -80,31 +80,41 @@
                 $('#submit')
                     .after('<img src="images/ajax-loader.gif" class="loader" />')
                     .attr('disabled', 'disabled');
+    
+                var nameValue = $('#name').val();
+                var emailValue = $('#email').val();
+                var addressValue = $('#address').val();
+                var messageValue = $('#message').val();
+    
+                console.log('Name:', nameValue);
+                console.log('Email:', emailValue);
+                console.log('Address:', addressValue);
+                console.log('Message:', messageValue);
+    
                 $.post(action, {
-                        first_name: $('#first_name').val(),
-                        last_name: $('#last_name').val(),
-                        email: $('#email').val(),
-                        phone: $('#phone').val(),
-                        select_service: $('#select_service').val(),
-                        select_price: $('#select_price').val(),
-                        comments: $('#comments').val(),
-                        verify: $('#verify').val()
-                    },
-                    function(data) {
-                        document.getElementById('message').innerHTML = data;
-                        $('#message').slideDown('slow');
-                        $('#contactform img.loader').fadeOut('slow', function() {
-                            $(this).remove()
-                        });
-                        $('#submit').removeAttr('disabled');
-                        if (data.match('success') != null) $('#contactform').slideUp('slow');
-                    }
-                );
+                    full_name: nameValue,
+                    email: emailValue,
+                    address: addressValue,
+                    message: messageValue
+                }
+                
+                //todo make this work ig
+
+                /*,
+                function(data) {
+                    document.getElementById('message').innerHTML = data;
+                    $('#message').slideDown('slow');
+                    $('#contactform img.loader').fadeOut('slow', function() {
+                        $(this).remove()
+                    });
+                    $('#submit').removeAttr('disabled');
+                    if (data.match('success') != null) $('#contactform').slideUp('slow');
+                }*/);
+    
             });
             return false;
         });
     });
-
     /* ==============================================
      CODE WRAPPER -->
      =============================================== */
