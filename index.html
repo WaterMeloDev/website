@@ -59,8 +59,7 @@
                            <ul class="social-icons pull-left">
                               <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
                               <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                              <li><a class="youtube" href="#"><i class="fa fa-youtube-play"></i></a></li>
-                              <li><a class="pinterest" href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                              <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
                            </ul>
                            <!-- end social icon -->
                         </div>
@@ -86,10 +85,10 @@
                                     <div class="collapse navbar-collapse js-navbar-collapse">
                                        <ul class="nav navbar-nav">
                                           <li class="active"><a href="index.html">Home</a></li>
-                                          <li><a href="about.html">About</a></li>
-                                          <li><a href="team.html">Team</a></li>
-                                          <li><a href="news.html">News</a></li>
-                                          <li><a href="contact.html">Contact</a></li>
+                                          <li><a href="main/about/">About</a></li>
+                                          <li><a href="main/team/">Team</a></li>
+                                          <li><a href="main/news/">News</a></li>
+                                          <li><a href="main/contact/">Contact</a></li>
                                        </ul>
                                     </div>
                                     <!-- /.nav-collapse -->
@@ -187,24 +186,6 @@
          <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="row">
                <div class="full">
-                  <div class="matchs-vs">
-                     <div class="vs-team">
-                        <div class="team-btw-match">
-                           <ul>
-                              <li>
-                                 <img src="images/TeamLogoBanner-removebg-preview.png" alt="" style="max-width: 300px;">
-                                 <span></span>
-                              </li>
-                           </ul>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="col-md-6 col-sm-6 col-xs-12">
-            <div class="row">
-               <div class="full">
                   <div class="right-match-time">
                      <h2>Staples Railroad Days</h2>
                      <ul id="countdown-1" class="countdown">
@@ -213,43 +194,91 @@
                         <li><span class="minutes">25 </span>Minutes </li>
                         <li><span class="seconds">10 </span>Seconds </li>
                      </ul>
-                     <span>08/19/2023 /9:00am</span>
+                     <span>Starts - 08/19/2023 /9:00am</span>
                   </div>
                </div>
             </div>
          </div>
          <script>
-        // Set the date you want the countdown to end
-        var countDownDate = new Date("August 19, 2023 9:00:00").getTime();
-
-        // Update the countdown every 1 second
-        var countdown = setInterval(function() {
-            // Get the current date and time
-            var now = new Date().getTime();
-
-            // Calculate the distance between now and the countdown date
-            var distance = countDownDate - now;
-
-            // Calculate days, hours, minutes, and seconds
-            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-            // Display the countdown timer
-            document.getElementById("countdown-1").innerHTML =
-                "<li><span class='days'>" + days + "</span>Day</li>" +
-                "<li><span class='hours'>" + hours + "</span>Hours</li>" +
-                "<li><span class='minutes'>" + minutes + "</span>Minutes</li>" +
-                "<li><span class='seconds'>" + seconds + "</span>Seconds</li>";
-
-            // If the countdown is finished, display a message
-            if (distance < 0) {
-                clearInterval(countdown);
-                document.getElementById("countdown-1").innerHTML = "Event has started!";
-            }
-        }, 1000);
-    </script>
+            // Set the date you want the countdown to end
+            var countDownDate = new Date("August 19, 2023 9:00:00").getTime();
+      
+            // Update the countdown every 1 second
+            var countdown = setInterval(function() {
+               // Get the current date and time
+               var now = new Date().getTime();
+      
+               // Calculate the distance between now and the countdown date
+               var distance = countDownDate - now;
+      
+               // Calculate days, hours, minutes, and seconds
+               var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+               var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+               var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+               var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      
+               // Display the countdown timer
+               document.getElementById("countdown-1").innerHTML =
+                  "<li><span class='days'>" + days + "</span>Day</li>" +
+                  "<li><span class='hours'>" + hours + "</span>Hours</li>" +
+                  "<li><span class='minutes'>" + minutes + "</span>Minutes</li>" +
+                  "<li><span class='seconds'>" + seconds + "</span>Seconds</li>";
+      
+               // If the countdown is finished, display a message
+               if (distance < 0) {
+                  clearInterval(countdown);
+                  document.getElementById("countdown-1").innerHTML = "Event has started!";
+               }
+            }, 1000);
+         </script> 
+         <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="row">
+               <div class="full">
+                  <div class="right-match-time2">
+                     <h2>Move For Inclusion</h2>
+                     <ul id="countdown-2" class="countdown">
+                        <li><span class="days">10 </span>Day </li>
+                        <li><span class="hours">5 </span>Hours </li>
+                        <li><span class="minutes">25 </span>Minutes </li>
+                        <li><span class="seconds">10 </span>Seconds </li>
+                     </ul>
+                     <span>Starts - 09/16/2023 /9:00am</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <script>
+            // Set the date you want the countdown to end
+            var countDownDate2 = new Date("September 16, 2023 9:00:00").getTime();
+      
+            // Update the countdown every 1 second
+            var countdown2 = setInterval(function() {
+               // Get the current date and time
+               var now2 = new Date().getTime();
+      
+               // Calculate the distance between now and the countdown date
+               var distance2 = countDownDate2 - now2;
+      
+               // Calculate days, hours, minutes, and seconds
+               var days2 = Math.floor(distance2 / (1000 * 60 * 60 * 24));
+               var hours2 = Math.floor((distance2 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+               var minutes2 = Math.floor((distance2 % (1000 * 60 * 60)) / (1000 * 60));
+               var seconds2 = Math.floor((distance2 % (1000 * 60)) / 1000);
+      
+               // Display the countdown timer
+               document.getElementById("countdown-2").innerHTML =
+                  "<li><span class='days'>" + days2 + "</span>Day</li>" +
+                  "<li><span class='hours'>" + hours2 + "</span>Hours</li>" +
+                  "<li><span class='minutes'>" + minutes2 + "</span>Minutes</li>" +
+                  "<li><span class='seconds'>" + seconds2 + "</span>Seconds</li>";
+      
+               // If the countdown is finished, display a message
+               if (distance2 < 0) {
+                  clearInterval(countdown2);
+                  document.getElementById("countdown-2").innerHTML = "Event has started!";
+               }
+            }, 1000);
+         </script>
       </div>
       <section class="video_section_main theme-padding middle-bg vedio">
          <div class="container">
@@ -280,7 +309,6 @@
                      <div class="team-column style-2">
                         <img src="images/img-1-1.jpg" alt="">
                         <div class="player-name">
-                           <div class="desination-2">Defender</div>
                            <h5>Charles Wheeler</h5>
                            <span class="player-number">1</span>
                         </div>
@@ -298,11 +326,12 @@
                         </div>
                      </div>
                   </div>
+                  <!--
                   <div class="col-md-3">
                      <div class="team-column style-2">
                         <img src="images/img-1-2.jpg" alt="">
                         <div class="player-name">
-                           <div class="desination-2">Defender</div>
+                           
                            <h5>Charles Wheeler</h5>
                            <span class="player-number">2</span>
                         </div>
@@ -312,7 +341,7 @@
                      <div class="team-column style-2">
                         <img src="images/img-1-3.jpg" alt="">
                         <div class="player-name">
-                           <div class="desination-2">Defender</div>
+                           
                            <h5>Charles Wheeler</h5>
                            <span class="player-number">3</span>
                         </div>
@@ -322,12 +351,13 @@
                      <div class="team-column style-2">
                         <img src="images/img-1-4.jpg" alt="">
                         <div class="player-name">
-                           <div class="desination-2">Defender</div>
+                           
                            <h5>Charles Wheeler</h5>
                            <span class="player-number">4</span>
                         </div>
                      </div>
                   </div>
+               -->
                </div>
             </div>
          </div>
