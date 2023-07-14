@@ -21,11 +21,11 @@
      background-image:url('../images/main-slider-img1.jpg');
 }
  .darkerskyblue {
-     background-image:url('../images/bg1.png');
+     background-image:url('../images/sotorchpic.png'); /* change name image to new background image */
      opacity: 0.5;
 }
  .deepskyblue {
-     background-image:url('../images/bg1.png');
+     background-image:url('../images/sotorchpic.png');
 }
  .carousel-indicators {
      bottom: 0;
@@ -551,7 +551,7 @@
  .right-match-time {
      text-align: center;
      padding: 63px 0 62px;
-     background: url('../images/match-start-img.png');
+     background: url('../images/match-start-img.png'); /* TODO: Change image to SO theme */
      background-size: cover;
      color: #fff;
      background-repeat: no-repeat;
