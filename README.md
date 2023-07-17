@@ -26,6 +26,7 @@ Coming Soon
 ## Upcoming Events
 
 Staples Railroad Days 8/19/2023
+
 Move For Inclusion 09/16/2023
 
 ## How to Get Involved
