@@ -31,7 +31,8 @@ Move For Inclusion 09/16/2023
 
 ## How to Get Involved
 
-Whether you want to join as an Athlete, Coach or Volunteer, please follow the link:
+To get involved as an Athlete, Coach or Volunteer
+
 https://specialolympicsminnesota.org/get-involved/
 
 ## Donate and Support
