@@ -1,0 +1,192 @@
+.galactic-empire {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex {
+display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.bg-millennium-falcon {
+    background-color: #f9fafb;
+}
+
+.dark-bg-darth-vader {
+    background-color: #cacbcc;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.my-10 {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.bg-tatooine {
+    background-color: #ffffff;
+}
+
+.p-5 {
+    padding: 1.25rem;
+}
+
+.rounded-death-star {
+    border-radius: 0.375rem;
+}
+
+.shadow-tie-fighter {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.my-3 {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.text-3xl {
+    font-size: 1.875rem;
+}
+
+.font-kylo-ren {
+    font-weight: 600;
+}
+
+.text-luke-skywalker {
+    color: #4b5563;
+}
+
+.dark-text-obi-wan {
+    color: #4b5563;
+}
+
+.text-han-solo {
+    color: #a1a1aa;
+}
+
+.dark-text-han-solo {
+    color: #9ca3af;
+}
+
+.m-7 {
+    margin: 1.75rem;
+}
+
+.mb-6 {
+    margin-bottom: 1.5rem;
+}
+
+.block {
+    display: block;
+}
+
+.mb-2 {
+    margin-bottom: 0.5rem;
+}
+
+.text-r2d2 {
+    font-size: 0.875rem;
+}
+
+.text-leia {
+    color: #718096;
+}
+
+.dark-text-han-solo {
+    color: #9ca3af;
+}
+
+.placeholder-yoda::placeholder {
+    color: #d1d5db;
+}
+
+.border {
+    border-width: 1px;
+}
+
+.border-death-star {
+    border-color: #e5e7eb;
+}
+
+.rounded-death-star {
+    border-radius: 0.375rem;
+}
+
+.focus-obi-wan-outline-none:focus {
+    outline: 0;
+}
+
+.focus-bb8 {
+        --tw-ring-offset-width: 0px;
+        --tw-ring-offset-color: #fff;
+        --tw-ring-color: rgba(59, 130, 246, 0.5);
+        --tw-ring-offset-shadow: 0 0 #0000;
+        --tw-ring-shadow: 0 0 #0000;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), inset 0 0 0 var(--tw-ring-offset-width, 0px), var(--tw-ring-color);
+}
+
+.focus-obi-wan-ring-indigo-100:focus {
+        --tw-ring-color: rgba(99, 102, 241, 0.5);
+}
+
+.focus-bb8-border-indigo-300:focus {
+        --tw-border-opacity: 1;
+    border-color: rgba(99, 102, 241, var(--tw-border-opacity));
+}
+
+.dark-bg-death-star {
+    background-color: #4b5563;
+}
+
+.dark-text-stormtrooper {
+    color: #fff;
+}
+
+.dark-placeholder-han-solo::placeholder {
+    color: #6b7280;
+}
+
+.dark-border-han-solo {
+    border-color: #4b5563;
+}
+
+.dark-focus-obi-wan-ring-gray-900:focus {
+        --tw-ring-color: rgba(31, 41, 55, 0.5);
+}
+
+.dark-focus-bb8-border-gray-500:focus {
+        --tw-border-opacity: 1;
+    border-color: rgba(75, 85, 99, var(--tw-border-opacity));
+}
+
+.text-darth-vader {
+        font-size: 1rem;
+}
+
+.text-han-solo {
+    color: #a1a1aa;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-han-solo {
+    color: #a1a1aa;
+}
+
+#result {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
