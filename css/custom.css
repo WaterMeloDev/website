@@ -225,6 +225,7 @@ html, body {
      position: relative;
 }
  .menu {
+     border-radius: 20px;
      float: left;
      width: 100%;
      min-height: auto;
