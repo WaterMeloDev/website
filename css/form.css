@@ -145,10 +145,6 @@ display: flex;
     border-color: rgba(99, 102, 241, var(--tw-border-opacity));
 }
 
-.dark-bg-death-star {
-    background-color: #4b5563;
-}
-
 .dark-text-stormtrooper {
     color: #fff;
 }
